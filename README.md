@@ -1,47 +1,107 @@
-# 💻 BIA PC Builder — Montador de PC Gamer Inteligente
+<p align="center">
+  <img src="assets/banner.png" alt="BIA PC Builder Banner" width="100%">
+</p>
 
-🚀 *Versão MVP v3.0 — Desenvolvido por [Lucas Barros](https://github.com/seuusuario)*
+<h1 align="center">💻 BIA PC Builder — Montador de PC Gamer Inteligente</h1>
 
-![banner](assets/banner.png)
+<p align="center">
+  🚀 <em>Versão MVP v3.0 — Desenvolvido por <a href="https://github.com/lsilveiralg13">Lucas Barros</a></em>
+</p>
 
 ---
+
 ## 🧠 O que é o BIA PC Builder?
 
-A **BIA PC Builder** é uma plataforma inteligente desenvolvida em **Python + Streamlit** que ajuda o usuário a **montar um PC Gamer personalizado**, comparando **preços reais** em lojas como a **Amazon** e sugerindo **peças compatíveis** com base no perfil de uso.
-
-### ⚙️ Funcionalidades
-
-- 💡 Sugestão automática de peças conforme a usabilidade do PC  
-  (`Fraco`, `Médio`, `Forte`, `Multitarefas`, `Entusiasta`)
-- 🛒 Busca de preços em tempo real (via Selenium headless)
-- 🧩 Edição manual das peças antes da busca
-- 💰 Comparativo de custo-benefício por componente
-- 📊 Exportação dos resultados para Excel (`comparativo_pc.xlsx`)
-- 🔗 Links com **tag de afiliado** da Amazon integrados (para monetização)
+O **BIA PC Builder** é uma plataforma inteligente desenvolvida em **Python + Streamlit** que ajuda o usuário a **montar um PC Gamer personalizado**, comparando **preços reais** em lojas como a **Amazon**, sugerindo **peças compatíveis** com base no **perfil de uso**.
 
 ---
 
-## 🧩 Tecnologias utilizadas
+## ⚙️ Funcionalidades Principais
 
-| Categoria | Tecnologias |
-|------------|-------------|
-| Backend | Python 3.13 |
-| Web App | Streamlit |
-| Automação Web | Selenium + WebDriver Manager |
-| Dados | Pandas, OpenPyXL |
-| Visual | Streamlit UI Components |
+✅ Recomendação automática de componentes (CPU, GPU, RAM, SSD, etc.)  
+✅ Comparação de preços em tempo real  
+✅ Identificação do melhor custo-benefício  
+✅ Exportação dos resultados para Excel  
+✅ Interface intuitiva e visual com Streamlit  
+✅ Possibilidade de integração futura com tags de afiliado (Amazon API)  
 
 ---
 
-## ⚙️ Como rodar localmente
+## 🧩 Estrutura do Projeto
 
-```bash
-# Clone o repositório
-git clone https://github.com/seuusuario/bia-pc-builder.git
-cd bia-pc-builder
+```
+bia-pc-builder/
+│
+├── app.py                 # Código principal da aplicação Streamlit
+├── requirements.txt       # Dependências do projeto
+├── README.md              # Documentação do projeto
+├── .streamlit/
+│   └── secrets.toml       # (Opcional) Suas credenciais ou tag de afiliado
+└── assets/
+    ├── banner.png         # Banner visual do projeto
+    └── logo.png           # Logotipo da BIA
+```
 
-# Instale as dependências
-pip install -r requirements.txt
+---
 
-# Execute o app
-streamlit run app.py
+## 🚀 Como Executar Localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/lsilveiralg13/bia-pc-builder.git
+   ```
+
+2. Acesse a pasta do projeto:
+   ```bash
+   cd bia-pc-builder
+   ```
+
+3. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Execute o app:
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+## 🧱 Tecnologias Utilizadas
+
+- **Python 3.11+**
+- **Streamlit**
+- **BeautifulSoup / Requests**
+- **Pandas**
+- **OpenPyXL**
+- **Amazon Web Scraper**
+- **TensorFlow Lite (futuro para otimização preditiva)**
+
+---
+
+## 🧭 Roadmap Futuro
+
+🔹 Integração direta com APIs de lojas (Amazon, Kabum, TerabyteShop)  
+🔹 Sistema de recomendação baseado em IA  
+🔹 Modo Dark customizável  
+🔹 Criação automática de builds salvos (com login de usuário)  
+🔹 Versão web hospedada no Streamlit Cloud  
+
+---
+
+## 👨‍💻 Autor
+
+**Lucas Barros**  
+Desenvolvedor e criador da assistente **BIA** 🧠  
+📫 Contato: [linkedin.com/in/lucasbarros](https://linkedin.com/in/lucasbarros)
+
+---
+
+<p align="center">
+  <img src="assets/logo.png" alt="BIA Logo" width="120">
+</p>
+
+<p align="center">
+  <em>“Montar o PC ideal ficou inteligente.”</em>
+</p>
