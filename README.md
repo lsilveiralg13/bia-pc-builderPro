@@ -94,7 +94,7 @@ bia-pc-builder/
 
 **Lucas Barros**  
 Desenvolvedor e criador da assistente **BIA** 🧠  
-📫 Contato: [linkedin.com/in/lucasbarros](https://linkedin.com/in/lucasbarros)
+📫 Contato: [linkedin.com/in/lucas-glycon-665000171](https://www.linkedin.com/in/lucas-glycon-665000171/)
 
 ---
 
